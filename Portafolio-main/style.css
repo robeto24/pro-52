@@ -1,0 +1,17 @@
+h1{color:white}
+.encabezado{
+background-color: greenyellow;
+display:flex;
+justify-content:space-between;
+}
+
+.juegos{display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+}
+
+.juego p{opacity:0}
+.juego:hover p{opacity:1}
+
+.juego a{opacity:0.5}
+.juego:hover a{opacity:1}
